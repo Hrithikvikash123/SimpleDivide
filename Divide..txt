@@ -1,0 +1,30 @@
+package com.company;
+import java.util.Scanner;
+public class Divide {
+    public static void main(String[] args) {
+        try {
+
+            Scanner sc = new Scanner(System.in);
+            System.out.println(" Enter the two no is : ");
+            /* double -> data type it contain default size  8 byte
+               int    -> data type it contain default size 4 byte .
+               float  -> data type it contain default size 2 byte .
+               boolean-> data type it contain default size 1 byte .
+               long   -> data type it contain default size 8 byte .
+
+               Note : beginner don't confuse. you can also use integer and also remove the try and catch block.
+             */
+            double a = sc.nextInt();
+            double  b = sc.nextInt();
+
+            double result = a / b;
+            System.out.println(result);
+        }
+        catch(ArithmeticException e){
+            System.out.println(" Something wrong 3");
+
+            }
+    }
+}
+
+// you cane also remove the try and catch block but sometime it will give Exception throw error.
