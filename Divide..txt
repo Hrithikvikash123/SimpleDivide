@@ -11,9 +11,11 @@ public class Divide {
                float  -> data type it contain default size 2 byte .
                boolean-> data type it contain default size 1 byte .
                long   -> data type it contain default size 8 byte .
-
+               
                Note : beginner don't confuse. you can also use integer and also remove the try and catch block.
-             */
+               */
+               
+            
             double a = sc.nextInt();
             double  b = sc.nextInt();
 
@@ -21,10 +23,10 @@ public class Divide {
             System.out.println(result);
         }
         catch(ArithmeticException e){
-            System.out.println(" Something wrong 3");
+            System.out.println(" Something wrong ");
 
             }
     }
 }
 
-// you cane also remove the try and catch block but sometime it will give Exception throw error.
+// you can also remove the try and catch block but sometime it will give Exception throw error.
